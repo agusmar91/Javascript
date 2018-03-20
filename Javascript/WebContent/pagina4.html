@@ -1,0 +1,20 @@
+<!-- . Crea un formulario y debes validar con javascript los siguientes campos: -->
+<!-- 1.mail obligatorio -->
+<!-- 2.clave de más de 6 caracteres -->
+<!-- 3.fecha entrada mayor o igual a hoy -->
+
+
+<html>
+	<head>
+		<script type="text/javascript" src="pagina4.js"></script>
+	</head>
+	<body>
+		<h1>Holo</h1>
+		<form>
+			Email: <input type="mail" id="mail" required> <p id="pmail"></p><br><br>
+			Password: <input type="password" id="pass" required><p id="ppass"></p><br><br>
+			Fecha: <input type="date" id="fecha" required><p id="pfecha"></p><br><br>
+			<input type="button" onclick="comprobar()" value="comprobar">
+		</form>
+	</body>
+</html>
